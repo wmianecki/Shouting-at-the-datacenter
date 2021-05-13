@@ -1,5 +1,10 @@
 
 
+.blur {
+  color: transparent;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
 .navigation {
   display: flex;
   flex-flow: row wrap;
@@ -25,14 +30,14 @@
 /*This just stops me getting horizontal scrolling if anything overflows the width*/
 body {
   overflow-x: hidden;
-  background-color:white;
+  background-color: black;
 }
 /*Just removing default browser padding/margin*/
 html,
 body {
   padding: 0;
   margin: 0;
-  color: white;
+  color: black;
 }
 /*Flexbox gives us the flexiness we need. The top just stays put as there is no scrolling on the body due to the page never exceeding viewport height*/
 .Top {
@@ -78,9 +83,10 @@ WebKit inertia scrolling is being added here for any present/future devices that
 /*  Left and Right are set sizes while the Middle is set to flex one so it occupies all remaining space. This could be set as a width too if prefereable, perhaps using calc.*/
 .Left {
   flex: 2;
-  color: black;
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2em;
+  font-weight: 300;
   
   
 }
@@ -88,7 +94,7 @@ WebKit inertia scrolling is being added here for any present/future devices that
 .Middle {
   flex: 2;
   font-size: 2em;
-  color: black;
+  color: white;
  
   
 }
@@ -98,7 +104,4 @@ WebKit inertia scrolling is being added here for any present/future devices that
   background-color: violet;
 } */
 
-.blur {
-  color: transparent;
-  text-shadow: 0 0 5px rgba(0,0,0,0.5);
-}
+
