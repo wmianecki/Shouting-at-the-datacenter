@@ -55,7 +55,7 @@
     /* Then we define how is distributed the remaining space */
     justify-content: space-around;
     background-color: black;
-    padding: 0;
+    padding: 30;
     margin: 0;
     list-style: none;
   
@@ -63,7 +63,7 @@
   
   .flex-item {
 
-    padding: 1px;
+    padding: 115x;
     margin-top: 0px;
     line-height: 15px;
     color: white;
@@ -71,6 +71,7 @@
     font-size: 3em;
     text-align: center;
     background-color: black;
+
   }
 
 
