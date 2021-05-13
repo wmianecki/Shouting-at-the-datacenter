@@ -166,3 +166,20 @@ body {
   margin: 0;
 }
 
+#redbox {
+  letter-spacing: 1pt;
+}
+
+
+/* unvisited link */
+a:link {
+  color: white;
+  text-decoration:none;
+  /* letter-spacing: 1; */
+}
+
+/* visited link */
+a:visited {
+  color:white;
+  text-decoration:none;
+}

@@ -84,9 +84,11 @@ WebKit inertia scrolling is being added here for any present/future devices that
 .Left {
   flex: 2;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Arial Narrow';
   font-size: 2em;
   font-weight: 300;
+  line-height: 1.35;
+  padding-right: 5em;
   
   
 }
@@ -105,3 +107,25 @@ WebKit inertia scrolling is being added here for any present/future devices that
 } */
 
 
+a:link {
+  color: white;
+  text-decoration:none;
+  /* letter-spacing: 1; */
+}
+
+/* visited link */
+a:visited {
+  color:white;
+  text-decoration:none;
+}
+
+.name {
+  flex: 2;
+  color: white;
+  font-family: 'Arial Narrow';
+  font-size: .4em;
+  font-weight: 300;
+  line-height: 1.35;
+  text-indent: 10px;
+
+}
