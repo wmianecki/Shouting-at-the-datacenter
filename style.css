@@ -14,7 +14,11 @@
     padding: 1em;
     color: white;
   }
-  
+  @media only screen and (max-width: 600px) {
+    body {
+      filter: blur(17px);
+    }}
+
   /* .navigation a:hover {
     background: #1565C0;
   } */
